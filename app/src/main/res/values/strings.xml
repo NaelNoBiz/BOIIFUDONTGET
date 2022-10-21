@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BOIIFUDONTGET</string>
+    <string name="gotonew">GOTONEW</string>
+    <string name="button">Button</string>
+    <string name="back"><![CDATA[< back]]></string>
+    <string name="phone">Phone</string>
+    <string name="send">send</string>
+    <string name="message">message</string>
+</resources>
