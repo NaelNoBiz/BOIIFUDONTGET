@@ -2,6 +2,7 @@ package com.example.boiifudontget;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.PendingIntent;
 import android.content.Intent;
 import android.os.Bundle;
 import android.telephony.SmsManager;
@@ -30,6 +31,8 @@ public class ndpage extends AppCompatActivity {
         EditText phoneNumber = findViewById(R.id.etphone);
         String ph= phoneNumber.getText().toString();
         String msg= message.getText().toString();
+        Intent intent=new Intent(getApplicationContext(),MainActivity.class);
+        PendingIntent pi= PendingIntent.getActivity(getApplicationContext(), 0, intent,0);
         SmsManager sms = SmsManager.getDefault();
         sms.sendTextMessage(ph, null, "msg", null, null);
     }

@@ -6,4 +6,7 @@
     <string name="phone">Phone</string>
     <string name="send">send</string>
     <string name="message">message</string>
+    <string name="call">call</string>
+    <string name="phone_number">phone number</string>
+    <string name="sms">SMS</string>
 </resources>

@@ -19,4 +19,14 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(MainActivity.this,ndpage.class));
 
     }
+
+    public void CALLPAGE(View view)
+    {
+        startActivity(new Intent(MainActivity.this,CallPage.class));
+    }
+
+    public void IMGEdit(View view)
+    {
+        startActivity(new Intent(MainActivity.this,IMGEditor.class));
+    }
 }
